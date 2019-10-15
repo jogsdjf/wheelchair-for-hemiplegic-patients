@@ -19,6 +19,8 @@ void setup()
   //Serial.begin(9600);//Initialise the serial connection debugging
 }
 
+
+//This will run indefinitely
 void loop() 
 {
   int xval=analogRead(xPin);
